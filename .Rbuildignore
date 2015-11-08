@@ -4,3 +4,5 @@ Web.*
 .*/.deps
 .*/.dirstamp
 
+^.*\.Rproj$
+^\.Rproj\.user$

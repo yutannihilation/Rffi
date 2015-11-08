@@ -1,3 +1,2 @@
-include MVars
-PKG_CPPFLAGS=-I$(FFI_DIR)/include
-PKG_LIBS=-L$(FFI_DIR)/.libs -lffi -lm 
+PKG_CPPFLAGS=-I../windows/libffi-3.2.1/include
+PKG_LIBS=-L../windows/libffi-3.2.1/lib${R_ARCH} -lffi -lm 
